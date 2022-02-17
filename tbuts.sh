@@ -28,7 +28,7 @@ if [ "$RESP" = "y" ]; then
 		
 			echo "searching username $LINE, searchterm is $SEARCH..."
 			twint -s $SEARCH -u $LINE >> ~/$LINE-$SEARCH.txt
-			echo "complete, output is ~/$LINE-SEARCH.txt"
+			echo "complete, output is ~/$LINE-$SEARCH.txt"
 			echo ""
 					
 		#--loop complete:
